@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/feedback" android:icon="@drawable/baseline_feedback_24" android:title="Feedback" />
+    <item android:id="@+id/themes" android:icon="@drawable/baseline_color_lens_24" android:title="Themes" />
+    <item android:id="@+id/sort_order" android:icon="@drawable/baseline_sort_by_alpha_24" android:title="Sort Order" />
+    <item android:id="@+id/about" android:icon="@drawable/baseline_info_24" android:title="About" />
+    <item android:id="@+id/exit" android:icon="@drawable/baseline_exit_to_app_24" android:title="Exit" />
+
+</menu>

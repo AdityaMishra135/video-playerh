@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="curved">
+        <item name="cornerRadius">15dp</item>
+    </style>
+
+    <style name="curvedd">
+        <item name="cornerSize">8%</item>
+    </style>
+
+</resources>

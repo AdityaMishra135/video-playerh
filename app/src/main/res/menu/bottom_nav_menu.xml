@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/all_videos" android:icon="@drawable/baseline_video_library_24" android:title="All videos" />
+    <item android:id="@+id/all_folders" android:icon="@drawable/baseline_folder_24" android:title="All folders" />
+</menu>

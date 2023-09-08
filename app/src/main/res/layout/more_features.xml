@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/audioTrackBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:icon="@drawable/audio_track"
+            android:text="Audio track"
+            android:textAllCaps="false"
+            app:iconGravity="top"
+            android:background="@drawable/btn_ripple_effect"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/subtitlesBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:icon="@drawable/subtitles"
+            android:text="Subtitles"
+            android:textAllCaps="false"
+            app:iconGravity="top"
+            android:background="@drawable/btn_ripple_effect"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/audioBoosterBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:icon="@drawable/volumemax"
+            android:text="Audio booster"
+            android:textAllCaps="false"
+            app:iconGravity="top"
+            android:background="@drawable/btn_ripple_effect"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/speedBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:icon="@drawable/speed_alt"
+            android:text="Speed"
+            android:textAllCaps="false"
+            app:iconGravity="top"
+            android:background="@drawable/btn_ripple_effect"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sleepTimerBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:icon="@drawable/timer"
+            android:text="Sleep Timer"
+            android:textAllCaps="false"
+            app:iconGravity="top"
+            android:background="@drawable/btn_ripple_effect"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/pipModeBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            app:icon="@drawable/picture_in_picture"
+            android:text="PIP mode"
+            android:textAllCaps="false"
+            app:iconGravity="top"
+            android:background="@drawable/btn_ripple_effect"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/bottom_sheet_layout"
+    android:padding="10dp"
+    style="@style/BottomSheetTheme"
+    android:background="@drawable/bottom_sheet_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="What do you want?"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/video_play_LA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="11dp"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Video"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/video_rename_LA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="11dp"
+        android:textColor="@color/black"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_edit_24"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rename Video"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/video_share_LA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="11dp"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_share_24"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share Video"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/video_delete_LA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="11dp"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_delete_24"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Video"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/video_info_LA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="11dp"
+        android:background="?attr/selectableItemBackground"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_info_24"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Video info"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+</LinearLayout>

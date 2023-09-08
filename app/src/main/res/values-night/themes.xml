@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <attr name="themeColor" format="color"/>
+
+    <style name="Base.Theme.VideoPlayer" parent="Theme.MaterialComponents.Light">
+        <item name="themeColor">@color/white</item>
+        <item name="colorPrimary">?attr/themeColor</item>
+        <item name="android:navigationBarColor">@color/w_white</item>
+        <item name="statusBarBackground">?attr/themeColor</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:statusBarColor">?attr/themeColor</item>
+        <item name="android:titleTextColor">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Dark_mode" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="themeColor">@color/special</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorPrimary">?attr/themeColor</item>
+        <item name="android:navigationBarColor">?attr/themeColor</item>
+        <item name="statusBarBackground">?attr/themeColor</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        <item name="android:statusBarColor">?attr/themeColor</item>
+        <item name="android:titleTextColor">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.VideoPlayer" parent="Base.Theme.VideoPlayer" />
+
+    <style name="Player_theme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Splash screen theme. -->
+    <style name="splash_theme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:navigationBarColor">@color/copperfield</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <!-- for Alert dialog. -->
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>
